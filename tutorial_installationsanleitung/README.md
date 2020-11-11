@@ -9,7 +9,7 @@ Klicken Sie in Github einfach die Installationsanleitung an und folgen Sie den d
 ## 02_testskript.py
 Enthält eine Datei die Sie nachher in Spyder (Der Entwicklungsumgebung) ausprobieren sollten, um zu prüfen, ob alles, wie gehofft funktioniert.
 
-## 03a... bis 03...c
+## 03a... bis ...03c...pdf
 Enthält das Python Tutorial-Notebook in drei verschiedenen Formen:
 
 * 03a_tutorial_Notebook.ipynb: Ein Jupiter Notebook. Die Datei können Sie erst einmal vernachlässigen.
