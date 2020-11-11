@@ -8,13 +8,15 @@ Ziel der Installationsanleitung ist es, dass Sie am Ende ein Testskript für Pyt
 können, inwieweit ihr Rechner bereit für den Workshop ist. Allgemein ist die Installation von Python nicht trivial. Sollten Sie Fragen an einer Stelle haben, melden Sie sich gerne für macOS-User bei 
 buschhue@uni-potsdam.de und für Windows-User bei peter.wulff@uni-potsdam.de.
 
-Hinweis: Zur Installation wird das Terminal (macOS, Linux) oder die CommandLine (Windows) verwendet. Zum Ausführen des Terminals unter macOS geben Sie in der Suchmaschine Spotlight ''Terminal'' 
-ein', bei Windows geben Sie in der Suche ''cmd'' ein.
+Hinweis: Zur Installation wird das Terminal (macOS, Linux) oder die CommandLine (Windows) verwendet. Zum Ausführen des Terminals unter macOS geben Sie in der Suchmaschine Spotlight ''Terminal'' ein', bei Windows geben Sie in der Suche ''cmd'' ein.
 
-Für die Installation von Python verweisen wir auf folgende Website: https://docs.python-guide.org/#. Dort finden Sie für die gängigen Betriebssysteme (Linux, macOS, Windows) eine Installationsanleitung. 
+Für die Installation von Python verweisen wir auf folgende Website: https://docs.python-guide.org/#. Dort finden Sie für die gängigen Betriebssysteme (Linux, macOS, Windows) eine Installationsanleitung. Den Punkt "Pipenv & Virtual Environments" aus der Anleitung brauchen Sie für den Workshop nicht umzusetzen.
 
-Zur Installation von zusätzlichen Modulen in Python wird standardmäßig pip ("pip installs packages") verwendet. 
-Um pip zu installieren, laden Sie bitte folgendes Python-Skript: [get-pip.py](https://bootstrap.pypa.io/get-pip.py) herunter. Alternativ können Sie curl im Terminal verwenden:
+# 2) Installation von pip (Abkürzung "pip installs packages")
+
+Zur Installation von zusätzlichen Modulen in Python wird standardmäßig pip (Abkürzung "pip installs packages") verwendet. Eigentlich sollte dies bereits installiert sein. Sie werden bemerken, falls dies nicht der Fall sein sollte, wenn die Installation von Spyder via (`python3 -m pip install spyder`) nicht funktioniert.
+
+Sollte es noch nicht installiert sein, führen Sie die installation wie folgt durch: Um pip zu installieren, laden Sie bitte folgendes Python-Skript: [get-pip.py](https://bootstrap.pypa.io/get-pip.py) herunter. Alternativ können Sie curl im Terminal verwenden:
 
 ```
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
