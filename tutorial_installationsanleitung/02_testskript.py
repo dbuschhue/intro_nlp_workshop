@@ -18,6 +18,8 @@ import umap
 import hdbscan
 import sentence_transformers
 
+word_embedding_model = models.Transformer('bert-base-german-cased', max_seq_length=256) # dieser Befehl lädt das vortrainierte Sprachmodell
+
 # data = pd.read_csv('...')
 
 print( 'Everything worked! - You are ready to go.' )
