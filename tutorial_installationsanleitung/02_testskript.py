@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 import sklearn
 import umap
 import hdbscan
-import sentence_transformers
+from sentence_transformers import SentenceTransformer, models
 
 word_embedding_model = models.Transformer('bert-base-german-cased', max_seq_length=256) # dieser Befehl lädt das vortrainierte Sprachmodell
 
