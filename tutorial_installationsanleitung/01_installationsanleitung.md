@@ -1,4 +1,4 @@
-# 1) Installation von Python:
+# 1) Installation von Python
 
 Im Workshop arbeiten wir mit der freien Software Python (Version 3.6 oder höher). Je nach Betriebssystem erfolgt die Installation anders. Wichtig für die Installation ist, dass Sie dies mit Admin-Rechten
 durchführen. Eine Installation ohne Admin-Recht ist zwar unter bestimmten Umständen möglich, aber unserer Erfahrung nach treten dabei häufig Komplikationen auf, die nicht einfach behoben werden 
@@ -14,7 +14,7 @@ Für die Installation von Python verweisen wir auf folgende Website: https://doc
 
 # 2) Installation von pip (Abkürzung "pip installs packages")
 
-Zur Installation von zusätzlichen Modulen in Python wird standardmäßig pip (Abkürzung "pip installs packages") verwendet. Eigentlich sollte dies bereits installiert sein. Sie werden bemerken, falls dies nicht der Fall sein sollte, wenn die Installation von Spyder via (`python3 -m pip install spyder`) nicht funktioniert.
+Zur Installation von zusätzlichen Modulen in Python wird standardmäßig pip (Abkürzung "pip installs packages") verwendet. Eigentlich sollte dies bereits installiert sein. Sie werden bemerken, falls dies nicht der Fall sein sollte, wenn die Installation von Spyder (s.u.) via (`python3 -m pip install spyder`) nicht funktioniert.
 
 Sollte es noch nicht installiert sein, führen Sie die installation wie folgt durch: Um pip zu installieren, laden Sie bitte folgendes Python-Skript: [get-pip.py](https://bootstrap.pypa.io/get-pip.py) herunter. Alternativ können Sie curl im Terminal verwenden:
 
@@ -43,7 +43,7 @@ Stellen Sie weiter sicher, dass Sie pip installiert haben mit folgendem Befehl:
 ```
 
 
-# 2) Installation einer Entwicklungsumgebung:
+# 3) Installation einer Entwicklungsumgebung Spyder
 
 Um komfortabel Python-Skripte testen und ausführen zu können, empfehlen wir insbesondere für Anfängerinnen und Anfänger die Nutzung einer interaktiven Entwicklungsumgebung (IDE). Als 
 Entwicklungsumgebung empfehlen wir Spyder, da Spyder kostenfrei ist und nützliche Funktionalitäten (u.a., interaktive Konsole) bietet. Es können alternativ auch IDLE
@@ -60,7 +60,7 @@ Auch hier sollten Sie sich vergewissern, dass Sie Spyder über Terminal/CommandL
 ```
 
 
-# 3) Installation notwendiger Python-Module 
+# 4) Installation notwendiger Python-Module 
 
 Um Auswerteverfahren umzusetzen und möglichst gut mit Python arbeiten zu können, verwenden wir frei verfügbare Module (in etwa Pakete in R) sowie die Entwicklungsumgebung Spyder. Zunächst ist es dazu 
 erforderlich ein Modul- oder Paketmanager zu haben. Wir verwenden hierfür pip ("Pip installs Packages").
@@ -75,7 +75,7 @@ Sie können diese Module leicht über pip installieren. Nutzen Sie dazu folgende
 Hinweis: ```-m``` steht dafür, dass Python ein Modul ansteuert (in diesem Fall pip). Geben Sie für ```...``` den jeweiligen Modul-Namen ein.
 
 
-# 4) Zugriff auf den Datensatz:
+# 5) Zugriff auf den Datensatz
 
 Den Datensatz können Sie als csv-Datei unter folgendem Link herunterladen: https://boxup.uni-potsdam.de/index.php/s/2B4ItGqwFexvjvq (password: omt). Beachten Sie, dass dieser 
 Datensatz unter einer CC BY-NC Lizenz steht (siehe: https://competitions.codalab.org/competitions/20139#learn_the_details-terms_and_conditions).
@@ -85,7 +85,7 @@ Sie können den Datensatz in Python mit dem Modul pandas einlesen. Folgende Funk
     pandas.read_csv('Name-of-dataset')
 ```
 
-# 5) Testen Sie ihre Installation:
+# 6) Testen Sie ihre Installation
 
 Zuletzt haben wir ein Testskript (Testskript.py) erstellt. Öffnen Sie dieses in Spyder und führen Sie es aus. Wenn Sie keine Fehlermeldungen bekommen, dann ist ihr System startbereit für den 
 Workshop. Alternativ können Sie das Skript über das Terminal/CommandLine ausführen:
