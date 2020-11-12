@@ -76,10 +76,10 @@ Hinweis: ```-m``` steht dafür, dass Python ein Modul ansteuert (in diesem Fall 
 
 **Falls die Installation von einem Paketer (wahrscheinlich sentence-transformers) fehlschlägt, liegt dies nach unserer Erfahrung an der Python-Version. Um eine andere Python-Version zu installieren, können Sie wie folgt vorgehen (bitte installieren Sie in dem Fall Python 8.2):**
 
-## 4.1 Installieren einer anderen Pyhton-Version: Windows-Rechner
+## 4.1 Installieren einer anderen Pyhton-Version (8.2): Windows
 
 
-## 4.2 Installieren einer anderen Python: MacOs
+## 4.2 Installieren einer anderen Python-Version (8.2): MacOs
 Leider kann homebrew nicht Python in einer beliebigen Version installieren. Mithilfe folgender Anleitung können Sie aber eine andere Python-Version zusätzlich installieren. Installieren Sie die dabei bitte Python 8.2. Führen Sie dabei alle Schritte 1-7 der folgenden Anleitung durch:
 
 https://www.chrisjmendez.com/2017/08/03/installing-multiple-versions-of-python-on-your-mac-using-homebrew/
@@ -90,7 +90,7 @@ Führen Sie dann im Anschluss noch einmal den folgenden Code im Terminal aus:
     python3 -m pip install pandas numpy matplotlib seaborn scikit-learn umap hdbscan sentence-transformers
 ```
 
-## 4.3 Installieren einer anderen Python: Linux
+## 4.3 Installieren einer anderen Python-Version (8.2): Linux
 
 
 # 5) Zugriff auf den Datensatz
