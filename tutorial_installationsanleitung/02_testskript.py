@@ -18,6 +18,10 @@ import umap
 import hdbscan
 from sentence_transformers import SentenceTransformer, models
 
+import pyLDAvis
+from sklearn.decomposition import LatentDirichletAllocation as LDA
+from pyLDAvis import sklearn as sklearn_lda
+
 # Der folgende Befehl lädt das vortrainierte Sprachmodell
 # Das Sprachmodell wird dann lokal auf Ihrer Festplatte gespeichert, sodass Sie es zum Workshop schnell laden können
 word_embedding_model = models.Transformer('bert-base-german-cased', max_seq_length=256) 
