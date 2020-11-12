@@ -43,7 +43,7 @@ Stellen Sie weiter sicher, dass Sie pip installiert haben mit folgendem Befehl:
 ```
 
 
-# 3) Installation einer Entwicklungsumgebung Spyder
+# 3) Installation der Entwicklungsumgebung *Spyder*
 
 Um komfortabel Python-Skripte testen und ausführen zu können, empfehlen wir insbesondere für Anfängerinnen und Anfänger die Nutzung einer interaktiven Entwicklungsumgebung (IDE). Als 
 Entwicklungsumgebung empfehlen wir Spyder, da Spyder kostenfrei ist und nützliche Funktionalitäten (u.a., interaktive Konsole) bietet. Es können alternativ auch IDLE
