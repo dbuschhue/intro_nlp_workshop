@@ -105,9 +105,10 @@ Hinweis: Um das Skript über diesen Befehl ausführen zu können, müssen Sie en
 
 Jetzt können Sie unser Tutorial ausprobieren. Öffnen Sie dazu einfach spyder (Erinnerung: Spyder lässt sich öffnen, indem Sie in die Commandline/das Terminal einfach `spyder` eingeben) und öffnen Sie die Datei "03b_tutorial_python.py" (Dateien lassen sich einfach wie bei anderer Software auch üblich über `File`-> `Open...` öffnen)
 
-Die Dateien haben Sie in der ZIP-Datei bereits zu Beginn heruntergeladen:
+Die Dateien haben Sie in der ZIP-Datei bereits zu Beginn heruntergeladen (beschrieben auf https://github.com/dbuschhue/intro_nlp_workshop). Die Dateien befinden sich an den folgenden Orten.
+
 * https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installationsanleitung/03b_tutorial_python.py (Ausführbar in Spyder)
-* https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installationsanleitung/03c_tutorial.pdf (Leseversion)
+* https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installationsanleitung/03c_tutorial.pdf (Leseversion des Tutorials)
 
 
 Wir freuen uns auf Sie!
