@@ -107,16 +107,23 @@ Sie können den Datensatz in Python mit dem Modul pandas einlesen. Folgende Funk
 
 # 6) Testen Sie Ihre Installation
 
-Zuletzt haben wir ein Testskript (Testskript.py) erstellt. Öffnen 
+Zuletzt haben wir ein Testskript (Testskript.py) erstellt. 
 
-dieses in Spyder und führen Sie es aus. Wenn Sie keine Fehlermeldungen bekommen, dann ist Ihr System startbereit für den 
-Workshop. Alternativ können Sie das Skript über das Terminal/CommandLine ausführen:
+https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installationsanleitung/02_testskript.py
+
+Öffnen Sie dieses in Spyder und führen Sie es aus. Wenn Sie keine Fehlermeldungen bekommen, dann ist Ihr System startbereit für den  Workshop. Alternativ können Sie das Skript über das Terminal/CommandLine ausführen:
 
 ```
-    python3 Testskript.py
+    python3 02_testskript.py
 ```
 
 Hinweis: Um das Skript über diesen Befehl ausführen zu können, müssen Sie entsprechend mit dem Terminal/CommandLine im Verzeichnis des Skriptes sein. Sie können das Verzeichnis mit dem Befehl
 ```cd``` wechseln.
+
+Jetzt können Sie unser Tutorial ausprobieren:
+https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installationsanleitung/03c_tutorial.pdf (Leseversion)
+https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installationsanleitung/03b_tutorial_python.py (Ausführbar in Spyder)
+
+
 
 Wir freuen uns auf Sie!
