@@ -32,10 +32,10 @@ dataframe = pd.DataFrame([1,2,3,4])
 """## 2. Zuweisungen
 In Python lassen sich mit einem Gleichheitszeichen Variablen einen Wert zuweisen. 
 
-Im folgenden Beispiel wird der Variable X der Wert 12 zugewiesen.
+Im folgenden Beispiel wird der Variable x der Wert 12 zugewiesen.
 """
 
-X = 12
+x = 12
 
 """## 3. Daten Typen
 
@@ -70,7 +70,7 @@ Im Folgenden finden Sie einige Datentypen, die sich aus obigen Datentypen zusamm
 firstnames = ["David","Peter","Christina", "Tobias"]
 lastnames = ["Buschhueter","Wulff","Meyer", "Schneider"]
 ages = [35,30,12, 20]
-Mix = ["2",1] # die Elemente der Liste können auch diverse Typen enthalten
+mix = ["2",1] # die Elemente der Liste können auch diverse Typen enthalten
 
 """Listen sind geordnet. Das heißt, man kann über einen Index auf die einzelnen Elemente der Liste zugreifen."""
 
@@ -187,25 +187,25 @@ for i in ages: # die Schleife läuft über die Liste ages
 
 """## 10. Eigene Funktionen schreiben
 
-Um eine Funktion selbst zu definieren, werden auch wieder Einrückungen und Doppelpunkte verwendet. Hier wird die Funktion `add_two_func` geschrieben, die den Wert `X` als (Input-)Parameter annimmt. `add_two_func` addiert den Wert zwei auf die Zahl `X` und gibt diesen neuen Wert `Y(=X+2)` aus.
+Um eine Funktion selbst zu definieren, werden auch wieder Einrückungen und Doppelpunkte verwendet. Hier wird die Funktion `add_two_func` geschrieben, die den Wert `x` als (Input-)Parameter annimmt. `add_two_func` addiert den Wert zwei auf die Zahl `x` und gibt diesen neuen Wert `<(=x+2)` aus.
 """
 
 # diese Funktion addiert den Wert zwei auf eine Zahl
-def add_two_func(X=42): # 42 ist die Defaulteinstellung
-  Y=X+2
-  return Y
+def add_two_func(x=42): # 42 ist die Defaulteinstellung
+  y=x+2
+  return y
   
-print(add_two_func(X=1))
+print(add_two_func(x=1))
 
 """Und hier noch ein weiteres Beispiel zum selbst nachvollziehen:"""
 
 # ein anderes Beispiel
 
-def my_func_text(DeinName):
-  out = DeinName + " ist super in Python."
+def my_func_text(dein_name):
+  out = dein_name + " ist super in Python."
   return out
 
-print(my_func_text(DeinName = "Tobias"))
+print(my_func_text(dein_name = "Tobias"))
 
 """## 11. Klassen und Objekte (Instanzen)
 
@@ -214,7 +214,7 @@ Klassen sind so etwas wie Baupläne für Objekte. Wir schreiben hier einen einfa
 Die Methode `__init__` wird automatisch ausgeführt, wenn wir das Objekt initialisieren. Dabei werden dem Objekt die Eigenschaften Farbe und Geschmack zugeordnet.
 """
 
-class Gemüse():
+class gemuese():
     """
     Eine einfache klasse
     """
@@ -238,11 +238,11 @@ class Gemüse():
         return self.geschmack + "!!!"
   
 # erstelle Instanz der Klasse
-Saure_Gurke = Gemüse("grün", "sauer") 
+saure_Gurke = gemuese("grün", "sauer") 
 # wende die Methode zeige_farbe auf die Instanz an
-print(Saure_Gurke.zeige_farbe()) 
+print(saure_Gurke.zeige_farbe()) 
 # wende die Methode zeige_geschmack auf die Instanz an
-print(Saure_Gurke.zeige_geschmack())
+print(saure_Gurke.zeige_geschmack())
 
 """Das Arbeiten mit Klassen ist für R-User sicher etwas ungewohnt. Man kann sich aber vorstellen, dass damit interessante Möglichkeiten der Programmierung eröffnet werden. Wir werden sehen, wie Klassen verwendet werden können, um Textvorverarbeitung in sogenannten Pipelines zu systematisieren.
 
