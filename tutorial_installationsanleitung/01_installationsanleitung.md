@@ -93,7 +93,7 @@ Zuletzt haben wir ein Testskript (Testskript.py) erstellt.
 
 https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installationsanleitung/02_testskript.py
 
-Öffnen Sie dieses in Spyder und führen Sie es aus. Wenn Sie keine Fehlermeldungen bekommen, dann ist Ihr System startbereit für den  Workshop. Alternativ können Sie das Skript über das Terminal/CommandLine wie folgt ausführen:
+Öffnen Sie dieses in Spyder und führen Sie es aus (Erinnerung: Spyder lässt sich öffnen, indem Sie in die Commandline/das Terminal einfach `spyder` eingeben; Dateien lassen sich einfach wie bei anderer Software auch üblich über `File`-> `Open...` öffnen). Wenn Sie keine Fehlermeldungen bekommen, dann ist Ihr System startbereit für den  Workshop. Alternativ können Sie das Skript über das Terminal/CommandLine wie folgt ausführen:
 
 ```
     python3 02_testskript.py
@@ -103,9 +103,11 @@ Hinweis: Um das Skript über diesen Befehl ausführen zu können, müssen Sie en
 
 ```cd mein/verzeichnis ``` wechseln, wobei mein/verzeichnis dem Verzeichnis entspricht in dem sich die Datei 02_testskript.py befindet.
 
-Jetzt können Sie unser Tutorial ausprobieren:
+Jetzt können Sie unser Tutorial ausprobieren. Öffnen Sie dazu einfach spyder (Erinnerung: Spyder lässt sich öffnen, indem Sie in die Commandline/das Terminal einfach `spyder` eingeben) und öffnen Sie die Datei "03b_tutorial_python.py" (Dateien lassen sich einfach wie bei anderer Software auch üblich über `File`-> `Open...` öffnen)
 
-* https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installationsanleitung/03c_tutorial.pdf (Leseversion)
+Die Dateien haben Sie in der ZIP-Datei bereits zu Beginn heruntergeladen:
 * https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installationsanleitung/03b_tutorial_python.py (Ausführbar in Spyder)
+* https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installationsanleitung/03c_tutorial.pdf (Leseversion)
+
 
 Wir freuen uns auf Sie!
