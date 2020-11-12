@@ -1,14 +1,18 @@
 # 1) Installation von Python
 
-Im Workshop arbeiten wir mit der freien Software Python (Version 3.6 oder höher). Je nach Betriebssystem erfolgt die Installation anders. Wichtig für die Installation ist, dass Sie dies mit Admin-Rechten
+Im Workshop arbeiten wir mit der freien Software Python (Version 3.6 bis 3.8). Je nach Betriebssystem erfolgt die Installation anders. Wichtig für die Installation ist, dass Sie dies mit Admin-Rechten
 durchführen. Eine Installation ohne Admin-Recht ist zwar unter bestimmten Umständen möglich, aber unserer Erfahrung nach treten dabei häufig Komplikationen auf, die nicht einfach behoben werden 
 können. 
 
 Ziel der Installationsanleitung ist es, dass Sie am Ende ein Testskript für Python in einer Entwicklungsumgebung ausführen können. Darin sind alle erforderlichen Pakete angegeben, sodass Sie testen 
-können, inwieweit Ihr Rechner bereit für den Workshop ist. Allgemein ist die Installation von Python nicht trivial. Sollten Sie Fragen an einer Stelle haben, melden Sie sich gerne für macOS-User bei 
+können, inwieweit Ihr Rechner bereit für den Workshop ist. Sollten Sie die Installation nicht fertigstellen können, können Sie trotzdem problemlos am Workshop teilnehmen.
+
+Allgemein ist die Installation von Python nicht trivial. Sollten Sie Fragen an einer Stelle haben, melden Sie sich gerne für macOS-User bei 
 buschhue@uni-potsdam.de und für Windows-User bei peter.wulff@uni-potsdam.de.
 
 Hinweis: Zur Installation wird das Terminal (macOS, Linux) oder die CommandLine (Windows) verwendet. Zum Ausführen des Terminals unter macOS geben Sie in der Suchmaschine Spotlight ''Terminal'' ein', bei Windows geben Sie in der Suche ''cmd'' ein.
+
+Achtung, bevor Sie die folgende Installation ausführen, folgender Hinweis: Installieren Sie bitte Python in der Version 3.6 bis 3.8. Die Version 3.9 führt bei einigen Geräten zu Installationsproblemen. Für Linux (siehe bspw.: https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/) und Windows (siehe bspw.: https://chocolatey.org/packages/python3/3.8.2) ist die Installation einer spezifischen Version vergleichsweise einfach. Eine Anleitung für macOS finden Sie weiter unten (siehe Abschnitt 4).
 
 Für die Installation von Python verweisen wir auf folgende Website: https://docs.python-guide.org/#. Dort finden Sie für die gängigen Betriebssysteme (Linux, macOS, Windows) eine Installationsanleitung. Den Punkt "Pipenv & Virtual Environments" aus der Anleitung brauchen Sie für den Workshop nicht umzusetzen.
 
@@ -76,10 +80,7 @@ Hinweis: ```-m``` steht dafür, dass Python ein Modul ansteuert (in diesem Fall 
 
 **Falls die Installation (wahrscheinlich aufgrund von sentence-transformers) fehlschlägt, liegt dies nach unserer Erfahrung an der Python-Version. Um eine andere Python-Version zu installieren, können Sie wie folgt vorgehen (bitte installieren Sie in dem Fall Python 8.2):**
 
-## 4.1 Installieren einer anderen Python-Version (8.2): Windows
-
-
-## 4.2 Installieren einer anderen Python-Version (8.2): MacOs
+## 4 Installieren einer anderen Python-Version (8.2): MacOs
 Leider kann homebrew nicht Python in einer beliebigen Version installieren. Mithilfe folgender Anleitung können Sie aber eine andere Python-Version zusätzlich installieren. Installieren Sie die dabei bitte Python 8.2. Führen Sie dabei alle Schritte 1-7 der folgenden Anleitung durch:
 
 https://www.chrisjmendez.com/2017/08/03/installing-multiple-versions-of-python-on-your-mac-using-homebrew/
@@ -89,9 +90,6 @@ Führen Sie dann im Anschluss noch einmal den folgenden Code im Terminal aus:
 ```
     python3 -m pip install pandas numpy matplotlib seaborn scikit-learn umap hdbscan sentence-transformers
 ```
-
-## 4.3 Installieren einer anderen Python-Version (8.2): Linux
-
 
 # 5) Zugriff auf den Datensatz
 
