@@ -19,7 +19,7 @@ Folgen Sie den Schritten auf https://docs.python-guide.org/starting/install3/win
 Sie können einfach die Anleitung nach https://docs.python-guide.org/starting/install3/linux/ ausführen. Hier wird die Version 3.8.5 installiert. Das sollte auch funktionieren. Den Punkt "Pipenv & Virtual Environments" aus der Anleitung brauchen Sie für den Workshop nicht umzusetzen.
 
 # Für Mac:
-Installieren Sie zunächst Version 3.9 entsprechend dem Link https://docs.python-guide.org/starting/install3/osx/. Den Punkt "Pipenv & Virtual Environments" aus der Anleitung brauchen Sie für den Workshop nicht umzusetzen. Dann installieren Sie im Nachhinein die Version Python 3.8.2 entsprechend https://www.chrisjmendez.com/2017/08/03/installing-multiple-versions-of-python-on-your-mac-using-homebrew/. Führen Sie dabei alle Schritte 1-7 der Anleitung aus.
+Installieren Sie zunächst Version 3.9 entsprechend dem Link https://docs.python-guide.org/starting/install3/osx/. Den Punkt "Pipenv & Virtual Environments" aus der Anleitung brauchen Sie für den Workshop nicht umzusetzen. Dann installieren Sie im Nachhinein die Version Python 3.8.2 entsprechend https://www.chrisjmendez.com/2017/08/03/installing-multiple-versions-of-python-on-your-mac-using-homebrew/. Führen Sie dabei alle Schritte 1-7 der Anleitung aus. Achten Sie aber darauf, dass Sie die Version 3.8.2 (und nicht wie in der Anleitung 3.5.0 oder 3.7.0) installieren und setzen Sie für 3.x.x auch 3.8.2 ein. 
 
 # 2) Installation von pip (Abkürzung "pip installs packages")
 
