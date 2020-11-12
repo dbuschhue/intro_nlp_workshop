@@ -121,9 +121,8 @@ Hinweis: Um das Skript über diesen Befehl ausführen zu können, müssen Sie en
 ```cd``` wechseln.
 
 Jetzt können Sie unser Tutorial ausprobieren:
-https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installationsanleitung/03c_tutorial.pdf (Leseversion)
-https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installationsanleitung/03b_tutorial_python.py (Ausführbar in Spyder)
 
-
+* https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installationsanleitung/03c_tutorial.pdf (Leseversion)
+* https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installationsanleitung/03b_tutorial_python.py (Ausführbar in Spyder)
 
 Wir freuen uns auf Sie!
