@@ -69,10 +69,28 @@ Folgende Module sollten Sie vorab installieren: scikitlearn, umap, hdbscan, sent
 
 Sie können diese Module leicht über pip installieren. Nutzen Sie dazu folgenden Befehl im Terminal/CommandLine:
 ```
-    python3 -m pip install ...
+    python3 -m pip install pandas numpy matplotlib seaborn scikit-learn umap hdbscan sentence-transformers
 ```
 
-Hinweis: ```-m``` steht dafür, dass Python ein Modul ansteuert (in diesem Fall pip). Geben Sie für ```...``` den jeweiligen Modul-Namen ein.
+Hinweis: ```-m``` steht dafür, dass Python ein Modul ansteuert (in diesem Fall pip).
+
+***Falls die Installation von einem Paketer (wahrscheinlich sentence-transformers) fehlschlägt, liegt dies nach unserer Erfahrung an der Python-Version. Um eine andere Python-Version zu installieren, können Sie wie folgt vorgehen: (bitte installieren Sie in dem Fall Python 8.2) ***
+
+## 4.1 Auf Windows
+
+
+## 4.2 Auf dem Mac
+Leider kann homebrew nicht Python in einer beliebigen Version installieren. Mithilfe folgender Anleitung können Sie aber eine andere Python-Version zusätzlich installieren. Installieren Sie die dabei bitte Python 8.2.
+
+https://www.chrisjmendez.com/2017/08/03/installing-multiple-versions-of-python-on-your-mac-using-homebrew/
+
+Führen Sie dann im Anschluss noch einmal den folgenden Code im Terminal aus:
+
+```
+    python3 -m pip install pandas numpy matplotlib seaborn scikit-learn umap hdbscan sentence-transformers
+```
+
+## 4.3 Auf Linux
 
 
 # 5) Zugriff auf den Datensatz
@@ -84,6 +102,8 @@ Sie können den Datensatz in Python mit dem Modul pandas einlesen. Folgende Funk
 ```
     pandas.read_csv('Name-of-dataset')
 ```
+
+
 
 # 6) Testen Sie ihre Installation
 
