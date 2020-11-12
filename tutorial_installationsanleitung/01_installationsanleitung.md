@@ -5,7 +5,7 @@ durchführen. Eine Installation ohne Admin-Recht ist zwar unter bestimmten Umst�
 können. 
 
 Ziel der Installationsanleitung ist es, dass Sie am Ende ein Testskript für Python in einer Entwicklungsumgebung ausführen können. Darin sind alle erforderlichen Pakete angegeben, sodass Sie testen 
-können, inwieweit ihr Rechner bereit für den Workshop ist. Allgemein ist die Installation von Python nicht trivial. Sollten Sie Fragen an einer Stelle haben, melden Sie sich gerne für macOS-User bei 
+können, inwieweit Ihr Rechner bereit für den Workshop ist. Allgemein ist die Installation von Python nicht trivial. Sollten Sie Fragen an einer Stelle haben, melden Sie sich gerne für macOS-User bei 
 buschhue@uni-potsdam.de und für Windows-User bei peter.wulff@uni-potsdam.de.
 
 Hinweis: Zur Installation wird das Terminal (macOS, Linux) oder die CommandLine (Windows) verwendet. Zum Ausführen des Terminals unter macOS geben Sie in der Suchmaschine Spotlight ''Terminal'' ein', bei Windows geben Sie in der Suche ''cmd'' ein.
@@ -74,7 +74,7 @@ Sie können diese Module leicht über pip installieren. Nutzen Sie dazu folgende
 
 Hinweis: ```-m``` steht dafür, dass Python ein Modul ansteuert (in diesem Fall pip).
 
-***Falls die Installation von einem Paketer (wahrscheinlich sentence-transformers) fehlschlägt, liegt dies nach unserer Erfahrung an der Python-Version. Um eine andere Python-Version zu installieren, können Sie wie folgt vorgehen: (bitte installieren Sie in dem Fall Python 8.2) ***
+**Falls die Installation von einem Paketer (wahrscheinlich sentence-transformers) fehlschlägt, liegt dies nach unserer Erfahrung an der Python-Version. Um eine andere Python-Version zu installieren, können Sie wie folgt vorgehen: (bitte installieren Sie in dem Fall Python 8.2) **
 
 ## 4.1 Auf Windows
 
@@ -105,9 +105,11 @@ Sie können den Datensatz in Python mit dem Modul pandas einlesen. Folgende Funk
 
 
 
-# 6) Testen Sie ihre Installation
+# 6) Testen Sie Ihre Installation
 
-Zuletzt haben wir ein Testskript (Testskript.py) erstellt. Öffnen Sie dieses in Spyder und führen Sie es aus. Wenn Sie keine Fehlermeldungen bekommen, dann ist ihr System startbereit für den 
+Zuletzt haben wir ein Testskript (Testskript.py) erstellt. Öffnen 
+
+dieses in Spyder und führen Sie es aus. Wenn Sie keine Fehlermeldungen bekommen, dann ist Ihr System startbereit für den 
 Workshop. Alternativ können Sie das Skript über das Terminal/CommandLine ausführen:
 
 ```
