@@ -87,13 +87,6 @@ Hinweis: ```-m``` steht dafür, dass Python ein Modul ansteuert (in diesem Fall 
 Den Datensatz können Sie als csv-Datei unter folgendem Link herunterladen: https://boxup.uni-potsdam.de/index.php/s/2B4ItGqwFexvjvq (password: omt). Beachten Sie, dass dieser 
 Datensatz unter einer CC BY-NC Lizenz steht (siehe: https://competitions.codalab.org/competitions/20139#learn_the_details-terms_and_conditions).
 
-Sie können den Datensatz in Python mit dem Modul pandas einlesen. Folgende Funktion kann dazu genutzt werden:
-```
-    pandas.read_csv('Name-of-dataset')
-```
-
-
-
 # 6) Testen Sie Ihre Installation
 
 Zuletzt haben wir ein Testskript (Testskript.py) erstellt. 
@@ -107,6 +100,7 @@ https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installations
 ```
 
 Hinweis: Um das Skript über diesen Befehl ausführen zu können, müssen Sie entsprechend mit dem Terminal/CommandLine im Verzeichnis des Skriptes sein. Sie können das Verzeichnis mit dem Befehl
+
 ```cd mein/verzeichnis ``` wechseln, wobei mein/verzeichnis dem Verzeichnis entspricht in dem sich die Datei 02_testskript.py befindet.
 
 Jetzt können Sie unser Tutorial ausprobieren:
