@@ -69,7 +69,7 @@ Auch hier sollten Sie sich vergewissern, dass Sie Spyder über Terminal/CommandL
 
 # 4) Installation notwendiger Python-Module 
 
-Um Auswerteverfahren umzusetzen und möglichst gut mit Python arbeiten zu können, verwenden wir frei verfügbare Module (in etwa Pakete in R). Wir verwenden hierfür zur Installation pip.
+Um Auswerteverfahren umzusetzen, verwenden wir frei verfügbare Module (in etwa Pakete in R). Wir verwenden zur Installation der Module pip.
 
 Folgende Module sollten Sie vorab installieren: pandas, numpy, matplotlib, seaborn, scikit-learn, umap, hdbscan, sentence-transformers (mit dem Modell 'bert-base-german-cased') pyLDAvis, scipy
  
@@ -100,14 +100,14 @@ Zuletzt haben wir ein Testskript (Testskript.py) erstellt.
 
 https://github.com/dbuschhue/intro_nlp_workshop/blob/main/tutorial_installationsanleitung/02_testskript.py
 
-Öffnen Sie dieses in Spyder und führen Sie es aus. Wenn Sie keine Fehlermeldungen bekommen, dann ist Ihr System startbereit für den  Workshop. Alternativ können Sie das Skript über das Terminal/CommandLine ausführen:
+Öffnen Sie dieses in Spyder und führen Sie es aus. Wenn Sie keine Fehlermeldungen bekommen, dann ist Ihr System startbereit für den  Workshop. Alternativ können Sie das Skript über das Terminal/CommandLine wie folgt ausführen:
 
 ```
     python3 02_testskript.py
 ```
 
 Hinweis: Um das Skript über diesen Befehl ausführen zu können, müssen Sie entsprechend mit dem Terminal/CommandLine im Verzeichnis des Skriptes sein. Sie können das Verzeichnis mit dem Befehl
-```cd``` wechseln.
+```cd mein/verzeichnis ``` wechseln, wobei mein/verzeichnis dem Verzeichnis entspricht in dem sich die Datei 02_testskript.py befindet.
 
 Jetzt können Sie unser Tutorial ausprobieren:
 
