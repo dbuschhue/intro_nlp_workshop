@@ -4,7 +4,7 @@
 
 Enthält die Installationsanleitung.
 
-Klicken Sie in Github einfach die Installationsanleitung.md an und folgen Sie den dort beschriebenen Schritten.
+Klicken Sie in Github einfach 01_installationsanleitung.md an und folgen Sie den dort beschriebenen Schritten.
 
 ## 02_testskript.py
 Enthält eine Datei die Sie nachher in Spyder (Der Entwicklungsumgebung) ausprobieren sollten, um zu prüfen, ob alles, wie gehofft funktioniert.
