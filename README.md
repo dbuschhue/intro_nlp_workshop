@@ -1,2 +1,3 @@
+# Repository zum Workshop: Computer-basierte Analyse von Sprachdaten in der Bildungsforschung
 
-test
+Herzlich Willkommen. Hier finden Sie alle nötigen Informationen zum virtuellen Workshop am 26.11.2020.
