@@ -23,9 +23,9 @@ Installieren Sie zunächst Version 3.9 entsprechend dem Link https://docs.python
 
 # 2) Installation von pip (Abkürzung "pip installs packages")
 
-Zur Installation von zusätzlichen Modulen in Python wird standardmäßig pip (Abkürzung "pip installs packages") verwendet. Eigentlich sollte dies bereits installiert sein. Sie werden bemerken, falls dies nicht der Fall sein sollte, wenn die Installation von Spyder (s.u.) via (`python3 -m pip install spyder`) nicht funktioniert.
+Zur Installation von zusätzlichen Modulen in Python wird standardmäßig pip (Abkürzung "pip installs packages") verwendet. Eigentlich sollte dies bereits installiert sein. Sie werden bemerken, falls dies nicht der Fall sein sollte, wenn die Installation von Spyder (s.u.) (via `python3 -m pip install spyder`) nicht funktioniert.
 
-Sollte es noch nicht installiert sein, führen Sie die installation wie folgt durch: Um pip zu installieren, laden Sie bitte folgendes Python-Skript: [get-pip.py](https://bootstrap.pypa.io/get-pip.py) herunter. Alternativ können Sie curl im Terminal verwenden:
+Sollte es noch nicht installiert sein, führen Sie die installation wie folgt durch: Um pip zu installieren, laden Sie bitte folgendes Python-Skript: [get-pip.py](https://bootstrap.pypa.io/get-pip.py) herunter. Alternativ können Sie den Befehl `curl` im Terminal wie folgt verwenden:
 
 ```
     curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
@@ -54,8 +54,7 @@ Stellen Sie weiter sicher, dass Sie pip installiert haben mit folgendem Befehl:
 
 # 3) Installation der Entwicklungsumgebung *Spyder*
 
-Um komfortabel Python-Skripte testen und ausführen zu können, empfehlen wir insbesondere für Anfängerinnen und Anfänger die Nutzung einer interaktiven Entwicklungsumgebung (IDE). Als Entwicklungsumgebung empfehlen wir Spyder, da Spyder kostenfrei ist und nützliche Funktionalitäten (u.a., interaktive Konsole) bietet. Es können alternativ auch IDLE
-(die Standard-Entwicklungsumgebung) sowie PyCharm (teilweise kostenpflichtig) verwendet werden.
+Um komfortabel Python-Skripte testen und ausführen zu können, empfehlen wir insbesondere für Anfängerinnen und Anfänger die Nutzung einer interaktiven Entwicklungsumgebung (IDE). Als Entwicklungsumgebung empfehlen wir Spyder, da Spyder kostenfrei ist und nützliche Funktionalitäten (u.a., interaktive Konsole) bietet. Außerdem sieht es fast so aus wie RStudio, was vielen von Ihnen bekannt sein könnte. Es können alternativ auch IDLE (die Standard-Entwicklungsumgebung) sowie PyCharm (teilweise kostenpflichtig) verwendet werden.
 
 Die Installation von Spyder erfolgt über pip und den Befehl: 
 ```
@@ -66,7 +65,7 @@ Auch hier sollten Sie sich vergewissern, dass Sie Spyder über Terminal/CommandL
 ```
     spyder
 ```
-
+**Sie können Spyder nun einfach immer auf diese Weise aus dem Terminal/der Commandline starten (wundern Sie sich also nicht, wenn Sie keine Porgramm dazu unter Programme ö.Ä. finden).**
 
 # 4) Installation notwendiger Python-Module 
 
