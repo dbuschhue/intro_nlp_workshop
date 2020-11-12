@@ -73,7 +73,7 @@ Folgende Module sollten Sie vorab installieren: scikitlearn, umap, hdbscan, sent
 
 Sie können diese Module leicht über pip installieren. Nutzen Sie dazu folgenden Befehl im Terminal/CommandLine:
 ```
-    python3 -m pip install pandas numpy matplotlib seaborn scikit-learn umap hdbscan sentence-transformers
+    python3 -m pip install pandas numpy matplotlib seaborn scikit-learn umap hdbscan sentence-transformers pyLDAvis scipy
 ```
 
 Hinweis: ```-m``` steht dafür, dass Python ein Modul ansteuert (in diesem Fall pip).
@@ -88,7 +88,7 @@ https://www.chrisjmendez.com/2017/08/03/installing-multiple-versions-of-python-o
 Führen Sie dann im Anschluss noch einmal den folgenden Code im Terminal aus:
 
 ```
-    python3 -m pip install pandas numpy matplotlib seaborn scikit-learn umap hdbscan sentence-transformers
+    python3 -m pip install pandas numpy matplotlib seaborn scikit-learn umap hdbscan sentence-transformers pyLDAvis scipy
 ```
 
 # 5) Zugriff auf den Datensatz
