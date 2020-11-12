@@ -1,26 +1,25 @@
 # 1) Installation von Python
 
-Im Workshop arbeiten wir mit der freien Software Python (Version 3.8). Je nach Betriebssystem erfolgt die Installation anders. Wichtig für die Installation ist, dass Sie dies mit Admin-Rechten durchführen. Eine Installation ohne Admin-Recht ist zwar unter bestimmten Umständen möglich, aber unserer Erfahrung nach treten dabei häufig Komplikationen auf, die nicht einfach behoben werden 
+Im Workshop arbeiten wir mit der freien Software Python (Version 3.8). Je nach Betriebssystem erfolgt die Installation anders. Wichtig für die Installation ist, dass Sie dies mit Admin-Rechten durchführen. Eine Installation ohne Admin-Rechte ist zwar unter bestimmten Umständen möglich, aber unserer Erfahrung nach treten dabei häufig Komplikationen auf, die nicht einfach behoben werden 
 können. 
 
-Ziel der Installationsanleitung ist es, dass Sie am Ende ein Testskript für Python in einer Entwicklungsumgebung ausführen können. Darin sind alle erforderlichen Pakete angegeben, sodass Sie testen 
-können, inwieweit Ihr Rechner bereit für den Workshop ist. Sollten Sie die Installation nicht fertigstellen können, können Sie trotzdem problemlos am Workshop teilnehmen.
+Ziel der Installationsanleitung ist es, dass Sie am Ende ein Testskript für Python in einer Entwicklungsumgebung (Spyder) ausführen können. Darin sind alle erforderlichen Pakete angegeben, sodass Sie testen können, inwieweit Ihr Rechner bereit für den Workshop ist. Sollten Sie die Installation nicht fertigstellen können, können Sie trotzdem am Workshop teilnehmen.
 
 Allgemein ist die Installation von Python nicht trivial. Sollten Sie Fragen an einer Stelle haben, melden Sie sich gerne für macOS-User bei 
 buschhue@uni-potsdam.de und für Windows-User bei peter.wulff@uni-potsdam.de.
 
 Hinweis: Zur Installation wird das Terminal (macOS, Linux) oder die CommandLine (Windows) verwendet. Zum Ausführen des Terminals unter macOS geben Sie in der Suchmaschine Spotlight ''Terminal'' ein', bei Windows geben Sie in der Suche ''cmd'' ein.
 
-Für die Installation von Python verweisen wir auf folgende Website: https://docs.python-guide.org/#. Dort finden Sie für die gängigen Betriebssysteme (Linux, macOS, Windows). Bevor Sie damit beginnen, lesen Sie sich bitte die folgenden Punkte für Ihr Betriebssystem durch: Es gibt nämlich einen Versionskonflikt mit der aktuellsten Python-Version und einem der Pakete, das wir aktuell verwenden. Im Workshop wollen wir Python 3.8.2 verwenden.
+Für die Installation von Python verweisen wir auf folgende Website: https://docs.python-guide.org/#. Dort finden Sie Anleitungen für die gängigen Betriebssysteme (Linux, macOS, Windows). Bevor Sie damit beginnen, lesen Sie sich bitte die folgenden Punkte für Ihr Betriebssystem durch: Es gibt nämlich einen Versionskonflikt mit der aktuellsten Python-Version und einem der Module, das wir aktuell verwenden. Im Workshop wollen wir Python 3.8.2 verwenden (Version 3.8.5 sollte auch funktionieren).
 
 # Für Windows
-Folgen Sie den Schritten auf https://docs.python-guide.org/starting/install3/win/ aber führen Sie anstatt des ersten Befehls: `choco install python` den Befehl `choco install python3 --version=3.8.2`. So installieren Sie Python in der Version 3.8.2. 
+Folgen Sie den Schritten auf https://docs.python-guide.org/starting/install3/win/ aber führen Sie anstatt des ersten Befehls `choco install python` den Befehl `choco install python3 --version=3.8.2` aus. So installieren Sie Python in der Version 3.8.2. Den Punkt "Pipenv & Virtual Environments" aus der Anleitung brauchen Sie für den Workshop nicht umzusetzen.
 
 # Für Linux:
-Sie können einfach die Anleitung nach https://docs.python-guide.org/starting/install3/linux/ ausführen. Hier wird die Version 3.8.5 installiert. Das sollte auch funktionieren.
+Sie können einfach die Anleitung nach https://docs.python-guide.org/starting/install3/linux/ ausführen. Hier wird die Version 3.8.5 installiert. Das sollte auch funktionieren. Den Punkt "Pipenv & Virtual Environments" aus der Anleitung brauchen Sie für den Workshop nicht umzusetzen.
 
 # Für Mac:
-Installieren Sie zunächst Version 3.9 entsprechend dem Link https://docs.python-guide.org/starting/install3/osx/. Den Punkt "Pipenv & Virtual Environments" aus der Anleitung brauchen Sie für den Workshop nicht umzusetzen. Dann installieren im Nachhinein die Version Python 3.8.2 entsprechend https://www.chrisjmendez.com/2017/08/03/installing-multiple-versions-of-python-on-your-mac-using-homebrew/. Führen Sie dabei alle Schritte 1-7 der Anleitung.
+Installieren Sie zunächst Version 3.9 entsprechend dem Link https://docs.python-guide.org/starting/install3/osx/. Den Punkt "Pipenv & Virtual Environments" aus der Anleitung brauchen Sie für den Workshop nicht umzusetzen. Dann installieren Sie im Nachhinein die Version Python 3.8.2 entsprechend https://www.chrisjmendez.com/2017/08/03/installing-multiple-versions-of-python-on-your-mac-using-homebrew/. Führen Sie dabei alle Schritte 1-7 der Anleitung aus.
 
 # 2) Installation von pip (Abkürzung "pip installs packages")
 
