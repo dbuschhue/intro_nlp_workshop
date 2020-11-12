@@ -69,10 +69,10 @@ Auch hier sollten Sie sich vergewissern, dass Sie Spyder über Terminal/CommandL
 
 # 4) Installation notwendiger Python-Module 
 
-Um Auswerteverfahren umzusetzen und möglichst gut mit Python arbeiten zu können, verwenden wir frei verfügbare Module (in etwa Pakete in R) sowie die Entwicklungsumgebung Spyder. Zunächst ist es dazu erforderlich ein Modul- oder Paketmanager zu haben. Wir verwenden hierfür pip ("Pip installs Packages").
+Um Auswerteverfahren umzusetzen und möglichst gut mit Python arbeiten zu können, verwenden wir frei verfügbare Module (in etwa Pakete in R). Wir verwenden hierfür zur Installation pip.
 
-Folgende Module sollten Sie vorab installieren: scikitlearn, umap, hdbscan, sentence-transformers (mit dem Modell 'bert-base-german-cased'), pandas, numpy, matplotlib
-
+Folgende Module sollten Sie vorab installieren: pandas, numpy, matplotlib, seaborn, scikit-learn, umap, hdbscan, sentence-transformers (mit dem Modell 'bert-base-german-cased') pyLDAvis, scipy
+ 
 Sie können diese Module leicht über pip installieren. Nutzen Sie dazu folgenden Befehl im Terminal/CommandLine:
 ```
     python3 -m pip install pandas numpy matplotlib seaborn scikit-learn umap hdbscan sentence-transformers pyLDAvis scipy
