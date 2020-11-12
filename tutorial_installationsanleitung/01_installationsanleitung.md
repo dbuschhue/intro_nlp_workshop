@@ -74,7 +74,7 @@ Sie können diese Module leicht über pip installieren. Nutzen Sie dazu folgende
 
 Hinweis: ```-m``` steht dafür, dass Python ein Modul ansteuert (in diesem Fall pip).
 
-**Falls die Installation von einem Paketer (wahrscheinlich sentence-transformers) fehlschlägt, liegt dies nach unserer Erfahrung an der Python-Version. Um eine andere Python-Version zu installieren, können Sie wie folgt vorgehen: (bitte installieren Sie in dem Fall Python 8.2) **
+**Falls die Installation von einem Paketer (wahrscheinlich sentence-transformers) fehlschlägt, liegt dies nach unserer Erfahrung an der Python-Version. Um eine andere Python-Version zu installieren, können Sie wie folgt vorgehen: (bitte installieren Sie in dem Fall Python 8.2)**
 
 ## 4.1 Auf Windows
 
