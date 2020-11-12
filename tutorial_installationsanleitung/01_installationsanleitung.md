@@ -74,13 +74,13 @@ Sie können diese Module leicht über pip installieren. Nutzen Sie dazu folgende
 
 Hinweis: ```-m``` steht dafür, dass Python ein Modul ansteuert (in diesem Fall pip).
 
-**Falls die Installation von einem Paketer (wahrscheinlich sentence-transformers) fehlschlägt, liegt dies nach unserer Erfahrung an der Python-Version. Um eine andere Python-Version zu installieren, können Sie wie folgt vorgehen: (bitte installieren Sie in dem Fall Python 8.2)**
+**Falls die Installation von einem Paketer (wahrscheinlich sentence-transformers) fehlschlägt, liegt dies nach unserer Erfahrung an der Python-Version. Um eine andere Python-Version zu installieren, können Sie wie folgt vorgehen (bitte installieren Sie in dem Fall Python 8.2):**
 
 ## 4.1 Auf Windows
 
 
 ## 4.2 Auf dem Mac
-Leider kann homebrew nicht Python in einer beliebigen Version installieren. Mithilfe folgender Anleitung können Sie aber eine andere Python-Version zusätzlich installieren. Installieren Sie die dabei bitte Python 8.2.
+Leider kann homebrew nicht Python in einer beliebigen Version installieren. Mithilfe folgender Anleitung können Sie aber eine andere Python-Version zusätzlich installieren. Installieren Sie die dabei bitte Python 8.2. Führen Sie dabei alle Schritte 1-7 der folgenden Anleitung durch:
 
 https://www.chrisjmendez.com/2017/08/03/installing-multiple-versions-of-python-on-your-mac-using-homebrew/
 
