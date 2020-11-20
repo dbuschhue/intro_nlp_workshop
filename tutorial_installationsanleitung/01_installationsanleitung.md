@@ -80,6 +80,7 @@ Sie können diese Module leicht über pip installieren. Nutzen Sie dazu folgende
 
 Hinweis: ```-m``` steht dafür, dass Python ein Modul ansteuert (in diesem Fall pip).
 
+Hinweis: Sollten Sie Probleme mit der Installation von sentence-transformers haben, kann dies daran liegen, dass torch (Machine-Learning-Library in python) nicht auf Ihrem System installiert ist. Unter folgendem Link finden Sie eine Installationsanleitung für pytorch: https://pytorch.org/get-started/locally/#windows-pip. Dort können Sie gezielt Ihre Systemvoraussetzungen spezifizieren. 
 
 
 # 5) Zugriff auf den Datensatz
