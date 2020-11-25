@@ -135,11 +135,16 @@ ext.fit_transform(df)
 
 # =============================================================================
 # Mögliche Aufgabe: Schreiben Sie selbst einen Transformer, der alle Buchstaben
-# in Buchstaben umwandelt und probieren Sie ihn aus
+# in Kleinbuchstaben umwandelt und probieren Sie ihn aus.
 # =============================================================================
 # Wiederholung:
 # # einzelner String
 # "HAllo".lower()
 # # Als list comprehension
 # [X.lower() for X in str_list] 
+# =============================================================================
+# Lösung im Chat
+# 10 Minuten Bearbeitung
+# 5 Minuten Besprechung
+# =============================================================================
 # =============================================================================

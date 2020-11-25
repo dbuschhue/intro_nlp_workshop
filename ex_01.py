@@ -124,5 +124,8 @@ str_list[2].translate(remove_digits)
 # 2. Wenden Sie wahlweise einige Vorverarbeitungsschritte an.
 # 3. Kombinieren Sie die Schritte zu einer ersten "Pipeline", so dass einige
 #     Schritte hintereinander ausgeführt werden.
+# 
+# Lösung im Chat
+# 10 Minuten Bearbeitung
+# 5 Minuten Besprechung
 # =============================================================================
-

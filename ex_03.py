@@ -125,7 +125,7 @@ pipe_lr.fit(df_train_red, df_train_red["motive"])
 # Speichere
 now = datetime.now()
 pickle.dump(pipe_lr,open( out_path+"/"+
-                         now.strftime("%d_%m_%Y_%H_%M")+"_log_reg"+".p","wb" ))
+                         now.strftime("%d_%m_%Y_%H_%M")+"_log_reg_01"+".p","wb" ))
 # Wenn ein Modell geladen werden soll:
 # pipe_lr = pickle.load( open( out_path+"/"+"DATEINAME.p" , "rb") )
 y_pred_lr = pipe_lr.predict(df_train_red)
@@ -338,5 +338,4 @@ y_test_pred = pipe_lr.predict(df_test)
 # Schreibe Bericht
 print(classification_report(labels_test, y_test_pred))
 y_test_pred = pipe_lr.predict(df_test)
-
 
