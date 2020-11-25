@@ -187,7 +187,7 @@ for name, clf in zip(names, classifiers):
              'Score': score_x["test_"+metric_x].tolist(),
              'Metric': [metric_x]*k}, 
             columns=['Classifier','Score', "Metric"])
-        # HÄnge die Ausgabe zu dieser Metrik and das Dataframe an
+        # Hänge die Ausgabe zu dieser Metrik and das Dataframe an
         scores_clasif_x = scores_clasif_x.append(df_score)
     # Hänge die Ausgaben aller Metriken an dieses Dataframe an
     scores_cvo = scores_cvo.append(scores_clasif_x)
@@ -257,10 +257,10 @@ print("Best Parameters: ", random_s_lr.best_params_)
 # =============================================================================
 #  Grid Search
 # =============================================================================
-grid_s_list_lr =  [{'pipe_text__CountVec__min_df': [2,3,4],
+grid_s_list_lr =  [{'pipe_text__CountVec__min_df': [3,4,5],
  'pipe_text__CountVec__max_df': [190,200, 210],
  'logreg__solver': ['saga'],
- 'logreg__l1_ratio': [0.2,0.3,0.35],
+ 'logreg__l1_ratio': [0.25,0.3,0.35],
  'logreg__penalty': ['elasticnet'],
  'logreg__max_iter': [10000],
  'logreg__C': [0.7, 1, 1.623776739188721, 2,3,4],
