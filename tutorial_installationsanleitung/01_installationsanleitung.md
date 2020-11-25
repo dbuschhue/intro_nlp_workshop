@@ -15,9 +15,6 @@ Für die Installation von Python verweisen wir auf folgende Website: https://doc
 # Für Windows
 Folgen Sie den Schritten auf https://docs.python-guide.org/starting/install3/win/ aber führen Sie anstatt des ersten Befehls `choco install python` den Befehl `choco install python3 --version=3.8.2` aus. So installieren Sie Python in der Version 3.8.2. Den Punkt "Pipenv & Virtual Environments" aus der Anleitung brauchen Sie für den Workshop nicht umzusetzen.
 
-Einige Module in Python benötigen einen C++ Compiler. In Windows ist die C++ Entwicklungsumgebung "Visual Studio". Diese können Sie unter
-https://visualstudio.microsoft.com/de/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16 herunterladen. In einigen Fällen konnten Module nicht installiert werden, da dieser Compiler fehlte. Wir empfehlen Ihnen, sich dieses Tool herunterzuladen und zu installieren.
-
 # Für Linux:
 Sie können einfach die Anleitung nach https://docs.python-guide.org/starting/install3/linux/ ausführen. Hier wird die Version 3.8.5 installiert. Das sollte auch funktionieren. Den Punkt "Pipenv & Virtual Environments" aus der Anleitung brauchen Sie für den Workshop nicht umzusetzen.
 
